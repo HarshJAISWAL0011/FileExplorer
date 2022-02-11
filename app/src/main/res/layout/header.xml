@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="176dp"
+    android:padding="10dp"
+    android:gravity="bottom"
+    android:background="#4D881A">
+<ImageView
+    android:layout_width="80dp"
+    android:layout_height="80dp"
+    android:id="@+id/image_heading"
+    android:src="@drawable/ic_launcher_background"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Harsh Jaiswal"
+        android:id="@+id/harsh"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_below="@+id/image_heading"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="harshjaiswal9450@gmail.com"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:layout_below="@+id/harsh"/>
+
+</RelativeLayout>

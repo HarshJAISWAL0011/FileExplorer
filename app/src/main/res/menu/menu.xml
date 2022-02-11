@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/ic_launcher_background"/>
+        <item
+            android:id="@+id/nav_internal"
+            android:title="Internal"
+            android:icon="@drawable/details"/>
+        <item
+            android:id="@+id/nav_sd"
+            android:title="Sd Card"
+            android:icon="@drawable/ic_card"/>
+
+    </group>
+
+
+    <item
+        android:title="More">
+        <menu>
+            <item
+                android:title="About"
+                android:id="@+id/about"
+                />
+
+        </menu>
+    </item>
+
+</menu>
